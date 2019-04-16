@@ -1,0 +1,477 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_view" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>View</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <derivedcompoundref refid="class_console_view" prot="public" virt="non-virtual">ConsoleView</derivedcompoundref>
+    <derivedcompoundref refid="class_main_window" prot="public" virt="non-virtual">MainWindow</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_view_1a3fd5b2cd3d7ccfc51dd4b2730833180c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>View::View</definition>
+        <argsstring>(QWidget *parent=nullptr)</argsstring>
+        <name>View</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="15" column="1" bodyfile="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_view_1ad0f3ade04bca4e74b8868e63729bad86" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual View::~View</definition>
+        <argsstring>()=default</argsstring>
+        <name>~View</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="16" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_view_1a203ab36b8546f1d9dc630bd7c0536e67" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void View::setAvailableOperations</definition>
+        <argsstring>(const QVector&lt; QString &gt; operations)=0</argsstring>
+        <name>setAvailableOperations</name>
+        <param>
+          <type>const QVector&lt; QString &gt;</type>
+          <declname>operations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a5b3c08e11f2aece6c28c9b36e41ae35a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void View::setPermittedOperations</definition>
+        <argsstring>(const QVector&lt; QString &gt; operations)=0</argsstring>
+        <name>setPermittedOperations</name>
+        <param>
+          <type>const QVector&lt; QString &gt;</type>
+          <declname>operations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a80c90f9167a8bc834d8c2f25be9e5f0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void View::setLeftTypes</definition>
+        <argsstring>(const QVector&lt; QString &gt; types)=0</argsstring>
+        <name>setLeftTypes</name>
+        <param>
+          <type>const QVector&lt; QString &gt;</type>
+          <declname>types</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a497493954a4a2be8cf50306a884d7358" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void View::setLeftFields</definition>
+        <argsstring>(const int &amp;fields, const QVector&lt; QString &gt; &amp;limits)=0</argsstring>
+        <name>setLeftFields</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>fields</declname>
+        </param>
+        <param>
+          <type>const QVector&lt; QString &gt; &amp;</type>
+          <declname>limits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a26bb1996d32f29476ba3c0b5c01561fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void View::setRightTypes</definition>
+        <argsstring>(const QVector&lt; QString &gt; types)=0</argsstring>
+        <name>setRightTypes</name>
+        <param>
+          <type>const QVector&lt; QString &gt;</type>
+          <declname>types</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a342210db03ff75bfe4b66f3383e50341" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void View::setRightFields</definition>
+        <argsstring>(const int &amp;fields, const QVector&lt; QString &gt; &amp;limits)=0</argsstring>
+        <name>setRightFields</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>fields</declname>
+        </param>
+        <param>
+          <type>const QVector&lt; QString &gt; &amp;</type>
+          <declname>limits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a2d78db2bd23a6dd80bfeae64f4c3fdd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void View::setResult</definition>
+        <argsstring>(const QVector&lt; QString &gt; result)=0</argsstring>
+        <name>setResult</name>
+        <param>
+          <type>const QVector&lt; QString &gt;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1ad3f5b700bd33a72bebc6efdbad2d17eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void View::setResultFields</definition>
+        <argsstring>(const int &amp;fields)=0</argsstring>
+        <name>setResultFields</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>fields</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a3d017128dbceb8a10e0c35fcd852e987" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void View::setHistory</definition>
+        <argsstring>(const QVector&lt; QVector&lt; QString &gt;&gt; &amp;history)=0</argsstring>
+        <name>setHistory</name>
+        <param>
+          <type>const QVector&lt; QVector&lt; QString &gt;&gt; &amp;</type>
+          <declname>history</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a117a5d1b3b3e3823e628d859f6f3cb48" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void View::error</definition>
+        <argsstring>(const QString &amp;error_message)=0</argsstring>
+        <name>error</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>error_message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a0fd83f152fae6bbcaf6537f4379fd15b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void View::resetType</definition>
+        <argsstring>(QString drop, QString type)=0</argsstring>
+        <name>resetType</name>
+        <param>
+          <type>QString</type>
+          <declname>drop</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_view_1a913b840fc8042436555b89878feacb76" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void View::show</definition>
+        <argsstring>()=0</argsstring>
+        <name>show</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="29" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_view_1a96f2fd0ed3467a0e5072e9a4a5593395" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::leftValuesAreSet</definition>
+        <argsstring>(QVector&lt; QString &gt; values)</argsstring>
+        <name>leftValuesAreSet</name>
+        <param>
+          <type>QVector&lt; QString &gt;</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_view_1aef26164c727b9a1b83ca0e84c00a0060" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::rightValuesAreSet</definition>
+        <argsstring>(QVector&lt; QString &gt; values)</argsstring>
+        <name>rightValuesAreSet</name>
+        <param>
+          <type>QVector&lt; QString &gt;</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_view_1ae0775d09884cd6b001829df4276e407c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::leftTypeIsSet</definition>
+        <argsstring>(QString type)</argsstring>
+        <name>leftTypeIsSet</name>
+        <param>
+          <type>QString</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_view_1a29e8b493fdbca2747da4ffa855ab966c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::rightTypeIsSet</definition>
+        <argsstring>(QString type)</argsstring>
+        <name>rightTypeIsSet</name>
+        <param>
+          <type>QString</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_view_1aa510baf4ace905a146c2655ca4a4b55e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::resultTypeIsSet</definition>
+        <argsstring>(QString type)</argsstring>
+        <name>resultTypeIsSet</name>
+        <param>
+          <type>QString</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_view_1af4cf1863986a0fac18d6da46c97329de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::operationIsSet</definition>
+        <argsstring>(QString opt)</argsstring>
+        <name>operationIsSet</name>
+        <param>
+          <type>QString</type>
+          <declname>opt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_view_1ac05f93e75953488aa1a5a3f813603032" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::getResult</definition>
+        <argsstring>()</argsstring>
+        <name>getResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_view_1a0cf275613b9eb5cc57e2069df61a87e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::getHistory</definition>
+        <argsstring>()</argsstring>
+        <name>getHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_view_1a84eea48d2036da09640369d7997d957b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_view_1af0a5104e717bfe94ae35a1dfd9d5e183" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void View::done</definition>
+        <argsstring>()</argsstring>
+        <name>done</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="85">
+        <label>MainWindow</label>
+        <link refid="class_main_window"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>View</label>
+        <link refid="class_view"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>QWidget</label>
+      </node>
+      <node id="84">
+        <label>ConsoleView</label>
+        <link refid="class_console_view"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="86">
+        <label>View</label>
+        <link refid="class_view"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>QWidget</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" line="12" column="1" bodyfile="/home/gian/Projects/Kalk2-0/Kalk/View/view.h" bodystart="12" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_view_1af0a5104e717bfe94ae35a1dfd9d5e183" prot="public" virt="non-virtual"><scope>View</scope><name>done</name></member>
+      <member refid="class_view_1a117a5d1b3b3e3823e628d859f6f3cb48" prot="public" virt="pure-virtual"><scope>View</scope><name>error</name></member>
+      <member refid="class_view_1a0cf275613b9eb5cc57e2069df61a87e1" prot="public" virt="non-virtual"><scope>View</scope><name>getHistory</name></member>
+      <member refid="class_view_1ac05f93e75953488aa1a5a3f813603032" prot="public" virt="non-virtual"><scope>View</scope><name>getResult</name></member>
+      <member refid="class_view_1ae0775d09884cd6b001829df4276e407c" prot="public" virt="non-virtual"><scope>View</scope><name>leftTypeIsSet</name></member>
+      <member refid="class_view_1a96f2fd0ed3467a0e5072e9a4a5593395" prot="public" virt="non-virtual"><scope>View</scope><name>leftValuesAreSet</name></member>
+      <member refid="class_view_1af4cf1863986a0fac18d6da46c97329de" prot="public" virt="non-virtual"><scope>View</scope><name>operationIsSet</name></member>
+      <member refid="class_view_1a84eea48d2036da09640369d7997d957b" prot="public" virt="non-virtual"><scope>View</scope><name>reset</name></member>
+      <member refid="class_view_1a0fd83f152fae6bbcaf6537f4379fd15b" prot="public" virt="pure-virtual"><scope>View</scope><name>resetType</name></member>
+      <member refid="class_view_1aa510baf4ace905a146c2655ca4a4b55e" prot="public" virt="non-virtual"><scope>View</scope><name>resultTypeIsSet</name></member>
+      <member refid="class_view_1a29e8b493fdbca2747da4ffa855ab966c" prot="public" virt="non-virtual"><scope>View</scope><name>rightTypeIsSet</name></member>
+      <member refid="class_view_1aef26164c727b9a1b83ca0e84c00a0060" prot="public" virt="non-virtual"><scope>View</scope><name>rightValuesAreSet</name></member>
+      <member refid="class_view_1a203ab36b8546f1d9dc630bd7c0536e67" prot="public" virt="pure-virtual"><scope>View</scope><name>setAvailableOperations</name></member>
+      <member refid="class_view_1a3d017128dbceb8a10e0c35fcd852e987" prot="public" virt="pure-virtual"><scope>View</scope><name>setHistory</name></member>
+      <member refid="class_view_1a497493954a4a2be8cf50306a884d7358" prot="public" virt="pure-virtual"><scope>View</scope><name>setLeftFields</name></member>
+      <member refid="class_view_1a80c90f9167a8bc834d8c2f25be9e5f0d" prot="public" virt="pure-virtual"><scope>View</scope><name>setLeftTypes</name></member>
+      <member refid="class_view_1a5b3c08e11f2aece6c28c9b36e41ae35a" prot="public" virt="pure-virtual"><scope>View</scope><name>setPermittedOperations</name></member>
+      <member refid="class_view_1a2d78db2bd23a6dd80bfeae64f4c3fdd3" prot="public" virt="pure-virtual"><scope>View</scope><name>setResult</name></member>
+      <member refid="class_view_1ad3f5b700bd33a72bebc6efdbad2d17eb" prot="public" virt="pure-virtual"><scope>View</scope><name>setResultFields</name></member>
+      <member refid="class_view_1a342210db03ff75bfe4b66f3383e50341" prot="public" virt="pure-virtual"><scope>View</scope><name>setRightFields</name></member>
+      <member refid="class_view_1a26bb1996d32f29476ba3c0b5c01561fc" prot="public" virt="pure-virtual"><scope>View</scope><name>setRightTypes</name></member>
+      <member refid="class_view_1a913b840fc8042436555b89878feacb76" prot="public" virt="pure-virtual"><scope>View</scope><name>show</name></member>
+      <member refid="class_view_1a3fd5b2cd3d7ccfc51dd4b2730833180c" prot="public" virt="non-virtual"><scope>View</scope><name>View</name></member>
+      <member refid="class_view_1ad0f3ade04bca4e74b8868e63729bad86" prot="public" virt="virtual"><scope>View</scope><name>~View</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

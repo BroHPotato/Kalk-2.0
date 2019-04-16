@@ -1,0 +1,431 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_model" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Model</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <derivedcompoundref refid="class_color_model" prot="public" virt="non-virtual">ColorModel</derivedcompoundref>
+    <includes refid="model_8h" local="no">model.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_model_1a2e34231c9285a6c0a3e3f0c5cd4d51aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>QVector&lt; QString &gt;</type>
+        <definition>virtual QVector&lt;QString&gt; Model::availableOperations</definition>
+        <argsstring>() const =0</argsstring>
+        <name>availableOperations</name>
+        <reimplementedby refid="class_color_model_1aab6a725338946ecec218220f5606be45">availableOperations</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_model_1ad8efaa1708d2179e4a8e1474cae2df1d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>QVector&lt; QString &gt;</type>
+        <definition>virtual QVector&lt;QString&gt; Model::allAvailableTypes</definition>
+        <argsstring>() const =0</argsstring>
+        <name>allAvailableTypes</name>
+        <reimplementedby refid="class_color_model_1ac1788de4bf589070a2e915ff43d073ad">allAvailableTypes</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_model_1a2efbe4ec768191fa70ad86f260ec2fd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Model::~Model</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="16" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_model_1a61d4e70e34d66e77bd508016be6e9637" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Model::setLeftType</definition>
+        <argsstring>(QString type)=0</argsstring>
+        <name>setLeftType</name>
+        <param>
+          <type>QString</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_model_1ac3c03d44daacd6ad697481c576596592" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Model::setLeftValues</definition>
+        <argsstring>(QVector&lt; QString &gt; values)=0</argsstring>
+        <name>setLeftValues</name>
+        <param>
+          <type>QVector&lt; QString &gt;</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_model_1a967c3fccc96188c8087b1062045af857" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Model::setRightType</definition>
+        <argsstring>(QString type)=0</argsstring>
+        <name>setRightType</name>
+        <param>
+          <type>QString</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_model_1aed3bb530900e322630e2e39eb780991f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Model::setRightValues</definition>
+        <argsstring>(QVector&lt; QString &gt; values)=0</argsstring>
+        <name>setRightValues</name>
+        <param>
+          <type>QVector&lt; QString &gt;</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_model_1aac934ac17dd66822dbbc074c2d8808b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Model::setResultType</definition>
+        <argsstring>(QString type)=0</argsstring>
+        <name>setResultType</name>
+        <param>
+          <type>QString</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_model_1ac58ba62771e20dd87da313b7e399df69" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Model::setOp</definition>
+        <argsstring>(QString eOperation)=0</argsstring>
+        <name>setOp</name>
+        <param>
+          <type>QString</type>
+          <declname>eOperation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_model_1a95509d1e8dd8acff059eec72ac75f496" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Model::execute</definition>
+        <argsstring>()=0</argsstring>
+        <name>execute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_model_1a00ecb7bd9d19ba145a1ec536539fe08f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Model::getResult</definition>
+        <argsstring>()=0</argsstring>
+        <name>getResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_model_1a7328dea3602ce9c290c6821fba74cc6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Model::getHistory</definition>
+        <argsstring>()=0</argsstring>
+        <name>getHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_model_1a6e2f20f21dccde450c3eb1b8eef3126b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Model::reset</definition>
+        <argsstring>()=0</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="28" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_model_1a636cd0b310ee32bd0d7f4a158cb56b6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Model::permittedOperations</definition>
+        <argsstring>(QVector&lt; QString &gt; operations)</argsstring>
+        <name>permittedOperations</name>
+        <param>
+          <type>QVector&lt; QString &gt;</type>
+          <declname>operations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_model_1a533d6dc0f4b7ed4d49f308b689a7747f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Model::leftSize</definition>
+        <argsstring>(int size, const QVector&lt; QString &gt; &amp;limits)</argsstring>
+        <name>leftSize</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>const QVector&lt; QString &gt; &amp;</type>
+          <declname>limits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_model_1a640b1f4da464ee848601f9122dab5bc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Model::rightSize</definition>
+        <argsstring>(int size, const QVector&lt; QString &gt; &amp;limits)</argsstring>
+        <name>rightSize</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>const QVector&lt; QString &gt; &amp;</type>
+          <declname>limits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_model_1a4019e969fe2996f955d07852f10693dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Model::rightTypes</definition>
+        <argsstring>(QVector&lt; QString &gt; permittedTypes)</argsstring>
+        <name>rightTypes</name>
+        <param>
+          <type>QVector&lt; QString &gt;</type>
+          <declname>permittedTypes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_model_1a80434fb1d9e3abe82df328164a894e2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Model::resultSize</definition>
+        <argsstring>(int size)</argsstring>
+        <name>resultSize</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_model_1ae794cf24374d3c78f1b49731d096a077" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Model::resultReady</definition>
+        <argsstring>(QVector&lt; QString &gt; result)</argsstring>
+        <name>resultReady</name>
+        <param>
+          <type>QVector&lt; QString &gt;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_model_1a084ed959b9dbdac8f33047916a2b1e9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Model::history</definition>
+        <argsstring>(const QVector&lt; QVector&lt; QString &gt;&gt; &amp;historyVector)</argsstring>
+        <name>history</name>
+        <param>
+          <type>const QVector&lt; QVector&lt; QString &gt;&gt; &amp;</type>
+          <declname>historyVector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_model_1a1bef8f3d9f6d483c016e3b8d30ea6025" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Model::error</definition>
+        <argsstring>(QString)</argsstring>
+        <name>error</name>
+        <param>
+          <type>QString</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_model_1aa06479997ae88278ab636dc302e1fb70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Model::resetTypeAt</definition>
+        <argsstring>(QString drop, QString type)</argsstring>
+        <name>resetTypeAt</name>
+        <param>
+          <type>QString</type>
+          <declname>drop</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="38" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>this abstract class is used by controller to be connected to the view </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="71">
+        <label>QObject</label>
+      </node>
+      <node id="72">
+        <label>ColorModel</label>
+        <link refid="class_color_model"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>Model</label>
+        <link refid="class_model"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="74">
+        <label>QObject</label>
+      </node>
+      <node id="73">
+        <label>Model</label>
+        <link refid="class_model"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" line="11" column="1" bodyfile="/home/gian/Projects/Kalk2-0/Kalk/Model/model.h" bodystart="11" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_model_1ad8efaa1708d2179e4a8e1474cae2df1d" prot="public" virt="pure-virtual"><scope>Model</scope><name>allAvailableTypes</name></member>
+      <member refid="class_model_1a2e34231c9285a6c0a3e3f0c5cd4d51aa" prot="public" virt="pure-virtual"><scope>Model</scope><name>availableOperations</name></member>
+      <member refid="class_model_1a1bef8f3d9f6d483c016e3b8d30ea6025" prot="public" virt="non-virtual"><scope>Model</scope><name>error</name></member>
+      <member refid="class_model_1a95509d1e8dd8acff059eec72ac75f496" prot="public" virt="pure-virtual"><scope>Model</scope><name>execute</name></member>
+      <member refid="class_model_1a7328dea3602ce9c290c6821fba74cc6b" prot="public" virt="pure-virtual"><scope>Model</scope><name>getHistory</name></member>
+      <member refid="class_model_1a00ecb7bd9d19ba145a1ec536539fe08f" prot="public" virt="pure-virtual"><scope>Model</scope><name>getResult</name></member>
+      <member refid="class_model_1a084ed959b9dbdac8f33047916a2b1e9e" prot="public" virt="non-virtual"><scope>Model</scope><name>history</name></member>
+      <member refid="class_model_1a533d6dc0f4b7ed4d49f308b689a7747f" prot="public" virt="non-virtual"><scope>Model</scope><name>leftSize</name></member>
+      <member refid="class_model_1a636cd0b310ee32bd0d7f4a158cb56b6d" prot="public" virt="non-virtual"><scope>Model</scope><name>permittedOperations</name></member>
+      <member refid="class_model_1a6e2f20f21dccde450c3eb1b8eef3126b" prot="public" virt="pure-virtual"><scope>Model</scope><name>reset</name></member>
+      <member refid="class_model_1aa06479997ae88278ab636dc302e1fb70" prot="public" virt="non-virtual"><scope>Model</scope><name>resetTypeAt</name></member>
+      <member refid="class_model_1ae794cf24374d3c78f1b49731d096a077" prot="public" virt="non-virtual"><scope>Model</scope><name>resultReady</name></member>
+      <member refid="class_model_1a80434fb1d9e3abe82df328164a894e2f" prot="public" virt="non-virtual"><scope>Model</scope><name>resultSize</name></member>
+      <member refid="class_model_1a640b1f4da464ee848601f9122dab5bc4" prot="public" virt="non-virtual"><scope>Model</scope><name>rightSize</name></member>
+      <member refid="class_model_1a4019e969fe2996f955d07852f10693dd" prot="public" virt="non-virtual"><scope>Model</scope><name>rightTypes</name></member>
+      <member refid="class_model_1a61d4e70e34d66e77bd508016be6e9637" prot="public" virt="pure-virtual"><scope>Model</scope><name>setLeftType</name></member>
+      <member refid="class_model_1ac3c03d44daacd6ad697481c576596592" prot="public" virt="pure-virtual"><scope>Model</scope><name>setLeftValues</name></member>
+      <member refid="class_model_1ac58ba62771e20dd87da313b7e399df69" prot="public" virt="pure-virtual"><scope>Model</scope><name>setOp</name></member>
+      <member refid="class_model_1aac934ac17dd66822dbbc074c2d8808b5" prot="public" virt="pure-virtual"><scope>Model</scope><name>setResultType</name></member>
+      <member refid="class_model_1a967c3fccc96188c8087b1062045af857" prot="public" virt="pure-virtual"><scope>Model</scope><name>setRightType</name></member>
+      <member refid="class_model_1aed3bb530900e322630e2e39eb780991f" prot="public" virt="pure-virtual"><scope>Model</scope><name>setRightValues</name></member>
+      <member refid="class_model_1a2efbe4ec768191fa70ad86f260ec2fd6" prot="public" virt="virtual"><scope>Model</scope><name>~Model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
